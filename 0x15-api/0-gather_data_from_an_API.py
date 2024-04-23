@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import requests
 import sys
 
@@ -48,4 +50,5 @@ if __name__ == "__main__":
     
     employee_id = int(sys.argv[1])
     fetch_employee_todo_progress(employee_id)
+
 
